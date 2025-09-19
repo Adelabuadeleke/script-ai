@@ -5,6 +5,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Geist", Arial, Helvetica, sans-serif;
+  background: #000000;
 }
 
 p,
@@ -146,8 +147,86 @@ button.get_started {
   letter-spacing: 0%;
 }
 
+.videos__btns > a,
 .inner_btn_div > a {
   color: #ffffff;
   margin-left: 27px;
   text-decoration: none;
+  font-family: Inter;
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+/* our innovation */
+.innovation {
+  padding-top: 196px;
+  padding-bottom: 366px;
+}
+
+.our_innovation_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+.innovation_div {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  box-shadow: 0px 0px 33.7px 0px #4b53bc inset;
+  padding: 17px 31px;
+  color: white;
+  border-radius: 30px;
+}
+
+.innovation > h2 {
+  font-family: "Geist", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 90.4px;
+  line-height: 106%;
+  letter-spacing: 0%;
+  color: #e4e4e4;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.innovation > p {
+  font-family: "Geist", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #474747;
+  margin-bottom: 113px;
+}
+
+/* explore design */
+.videos__items {
+  display: flex;
+  padding-left: 300px;
+  overflow-x: scroll;
+  margin-bottom: 112.1px;
+}
+
+.videos__items::-webkit-scrollbar {
+  display: none;
+}
+
+.videos__items > video {
+  border-radius: 22.3px;
+  margin-right: 37px;
+  width: 630px;
+  height: 381.9px;
+}
+
+.videos__btns {
+  /* height: 400px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
